@@ -1,21 +1,31 @@
 import React from 'react';
 import './Home.css';
-import Me from '../../assets/avatar-1.svg';
+import Me from '../../assets/avatar.png';
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
 import Shapes from './Shapes';
+import Resume from '../../assets/resume.pdf';
 
 const Home = () => {
+     const downloadResume = async () => {
+            window.open(Resume, '_blank');
+        }
+
     return (
         <section className="home container" id='home'>
             <div className="intro">
                 <img src={Me} alt="" className='home__img' width='120' />
-                <h1 className="home__name">Greg Sithole</h1>
-                <span className="home__education">I'm a Software Engineer</span>
+                <h1 className="home__name">Yassine Sakine</h1>
+                <span className="home__education">Software Engineer | Tech Lead | Freelance<br />
+                                                    Java & Python Specialist<br />
+                                                    DevOps & Cloud Enthusiast</span>
 
                 <HeaderSocials />
-
-                <a href="#contact" className="btn"> Contact Me</a>
+        
+                <div className="home__button-group">
+                    <a href="#contact" className="btn">Contact Me</a>
+                    <a className="btn" onClick={downloadResume}>Download CV</a>
+                </div>
 
                 <ScrollDown />
             </div>

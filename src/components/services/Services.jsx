@@ -8,23 +8,23 @@ const data = [
     {
         id: 1,
         image: Image1,
-        title: "Responsive design",
+        title: "Développement Backend",
         description:
-            "Ensuring that the website/mobile app is responsive across all platforms",
+            "Développer des APIs fiables et bien structurées, intégrer des systèmes (Kafka, Redis, RabbitMQ, etc.) et automatiser les processus clés",
     },
     {
         id: 2,
         image: Image2,
-        title: "Web Development",
+        title: "Accompagnement d’équipes",
         description:
-            "Ensuring that that a website meets the correct standards, and also ensuring it's well maintained",
+            "Encadrer des développeurs, améliorer les pratiques de l’équipe (revues, CI/CD, TDD...), et faciliter la collaboration avec les autres métiers",
     },
     {
         id: 3,
         image: Image3,
-        title: "Mobile Development",
+        title: "Architecture & Scalabilité",
         description:
-            "Ensuring that a mobile app meets the correct standards, and also ensuring it's well maintained",
+            "Concevoir des architectures solides et évolutives (monolithes clairs ou microservices) adaptées aux besoins métier et aux contraintes techniques",
     },
 ];
 

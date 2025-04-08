@@ -1,66 +1,88 @@
 const WorkExperience = [
     {
         id: 1,
-        title: "Software Engineer",
-        company: "Kurtosys",
-        yearsActive: "January 2022 - Present",
+        title: "Tech Lead (Freelance)",
+        company: "L'Oréal",
+        yearsActive: "March 2023 - March 2024",
         information: [
-            "Write modern, performant, maintainable code for a diverse array of internal projects",
-            "Communicate with multi-disciplinary teams of engineers, team leads, and QA Engineers on a daily basis",
+            "Pilotage du projet 'Contact' dans un environnement cloud-native (AWS, Kubernetes)",
+            "Conception et développement de microservices Java 17 avec Spring Boot 3",
+            "Implémentation d’une solution de gestion de contact omnicanal avec authentification OIDC (ForgeRock)",
+            "Coaching de développeurs et accompagnement des choix d'architecture"
         ],
     },
     {
         id: 2,
-        title: "Junior Software Developer",
-        company: "Entrostat",
-        yearsActive: "May 2017 - December 2021",
+        title: "Tech Lead (Freelance)",
+        company: "Fnac Darty",
+        yearsActive: "March 2021 - March 2023",
         information: [
-            "Improved and optimized the company's website for a seamless customer experience",
-            "Created, communicated, and managed project plans & project timelines",
-            "Worked to continually meet the expectation of our clients",
+            "Encadrement de l’équipe Service Client (5 devs + 1 QA)",
+            "Mise en place d’une plateforme de notifications temps réel via Kafka et Brevo",
+            "Refonte du système d’authentification client avec OIDC (ForgeRock)",
+            "Pilotage de la migration vers AWS et amélioration du time-to-market"
         ],
     },
     {
         id: 3,
-        title: "Junior Software Developer",
-        company: "Empire State",
-        yearsActive: "Feburary 2016 - April 2017",
+        title: "Engineering Manager",
+        company: "CrossQuantum (Groupe SwissLife)",
+        yearsActive: "August 2020 - March 2021",
         information: [
-            "Planned, developed, tested, deployed, and maintained web applications and mobile applications",
-            "Worked well independently and on a team to solve problems."
+            "Direction d’une équipe de 12 personnes (devs + QA + PO) sur l’app mobile LaFinBox",
+            "Gestion de l’architecture microservices et intégration de services d’agrégation bancaire",
+            "Mise en place de bonnes pratiques Agile (Scrum, Kanban, rituels, KPI équipe)",
+            "Livraison continue avec CI/CD, monitoring Grafana/Prometheus"
         ],
     },
     {
         id: 4,
-        title: "Software Development Intern",
-        company: "The Digital Academy",
-        yearsActive: "Novembe 2015 - January 2016",
+        title: "Tech Lead",
+        company: "BNP Paribas Leasing Solutions (Hardis Group)",
+        yearsActive: "April 2018 - August 2019",
         information: [
-            "Served as a dedicated and supportive Intern in a fast-paced environment",
-            "Worked to solve complex problems using the latest in Mobile and Web Technologies.",
+            "Encadrement d'équipes projets en méthodologie Agile/Scrum",
+            "Avant-vente technique et cadrage des besoins client",
+            "Pilotage du développement d’applications web/mobiles Java/Spring et React.js",
+            "Mise en place de pipelines CI/CD et Dockerisation des services"
         ],
     },
     {
         id: 5,
-        title: "IT Support Assistant",
-        company: "Varsity College",
-        yearsActive: "February 2015 - May 2015",
+        title: "Tech Lead",
+        company: "Effy Group & Harmonie Mutuelle (Hardis Group)",
+        yearsActive: "May 2016 - March 2018",
         information: [
-            "Worked to support the senior support staff with day-to-day tasks.",
-            "Assisted with the evaluation and troubleshooting of hardware and software issues.",
-            "Maintaining computer Inventory & surplus equipment."
+            "Refonte d’applications critiques (santé & énergie)",
+            "Intégration Salesforce et signature électronique avec Universign",
+            "Automatisation de la livraison via Jenkins, GitLab CI et Docker",
+            "Participation active aux choix technos et à l’architecture logicielle"
         ],
     },
     {
         id: 6,
-        title: "Student Ambassador",
-        company: "Varsity College",
-        yearsActive: "December 2014 - February 2015",
+        title: "Lead Developer Full Stack / Scrum Master",
+        company: "Canal+ (Extia)",
+        yearsActive: "February 2014 - April 2016",
         information: [
-            "Monitored registration for all prospective student",
-            "Assisted parents and prospective student with necessary registration details",
+            "Développement d’un moteur de règles de gestion des relances impayées (Java, Drools)",
+            "Refonte de portails internes avec Angular et Spring Boot",
+            "Scrum Master pour 2 équipes produits : animation des rituels, suivi des livrables",
+            "Montée en compétence des juniors et revues de code systématiques"
         ],
     },
+    {
+        id: 7,
+        title: "Consultant Java/JEE",
+        company: "Eugena Consulting",
+        yearsActive: "2007 - 2014",
+        information: [
+            "Missions pour Europ Assistance, Generali, Beezik, Colissimo, BNP Paribas Méditerranée IT",
+            "Développement backend Java/JEE, intégration Oracle, WebServices SOAP/REST",
+            "Conception UML, rédaction de spécifications techniques et support de production",
+            "Montée en charge sur des systèmes à fort trafic et problématiques de scalabilité"
+        ],
+    }
 ];
 
 export default WorkExperience;

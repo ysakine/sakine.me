@@ -37,12 +37,6 @@ const Sidebar = (props) => {
                             </li>
 
                             <li className="nav__item">
-                                <a href="#about" className="nav__link">
-                                    <RiUser3Line />
-                                </a>
-                            </li>
-
-                            <li className="nav__item">
                                 <a href="#services" className="nav__link">
                                     <RiFileList3Line />
                                 </a>
@@ -53,19 +47,7 @@ const Sidebar = (props) => {
                                     <RiBriefcase2Line />
                                 </a>
                             </li>
-
-                            <li className="nav__item">
-                                <a href="#portfolio" className="nav__link">
-                                    <RiStackLine />
-                                </a>
-                            </li>
-
-                            <li className="nav__item">
-                                <a href="#blog" className="nav__link">
-                                    <RiDraftLine />
-                                </a>
-                            </li>
-
+                            
                             <li className="nav__item">
                                 <a href="#contact" className="nav__link">
                                     <RiChat3Line />

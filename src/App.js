@@ -26,12 +26,8 @@ function App() {
             <Sidebar theme={theme} switchTheme={switchTheme} />
             <main className='main'>
                 <Home />
-                <About />
                 <Services />
                 <Resume />
-                <Portfolio />
-                <Testimonials />
-                <Blog />
                 <Contact theme={theme} />
             </main>
         </div>
