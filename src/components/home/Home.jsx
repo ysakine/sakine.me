@@ -4,7 +4,7 @@ import Me from '../../assets/avatar.png';
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
 import Shapes from './Shapes';
-import Resume from '../../assets/resume.pdf';
+import Resume from '../../assets/CV.pdf';
 
 const Home = () => {
      const downloadResume = async () => {
@@ -23,8 +23,8 @@ const Home = () => {
                 <HeaderSocials />
         
                 <div className="home__button-group">
-                    <a href="#contact" className="btn">Contact Me</a>
-                    <a className="btn" onClick={downloadResume}>Download CV</a>
+                    <a href="#contact" className="btn">Contact</a>
+                    <a className="btn" onClick={downloadResume}>Télécharger le CV</a>
                 </div>
 
                 <ScrollDown />
